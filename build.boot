@@ -17,6 +17,8 @@
 
                   [org.omcljs/om "0.9.0"]
                   [racehub/om-bootstrap "0.5.3"]
+
+                  [spellhouse/clairvoyant "0.0-72-g15e1e44"] ; tracing
                   ])
 
 (require '[pandeiro.boot-http :refer :all]
