@@ -1,0 +1,37 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors */
+[class~='container'] {
+    margin-left:1%;
+    margin-right:1%;
+}
+
+[class|='col'] {
+    padding-right:5px;
+    padding-left:5px;
+}
+
+[class~='panel-default'] {
+    margin-bottom:10px;
+}
+
+[class~='panel-heading'] {
+    padding:5px;
+    padding-right:7px;
+    padding-left:7px;
+}
+
+[class~='panel-body'] {
+    padding:5px;
+    padding-right:7px;
+    padding-left:7px;
+}
+
+[class~='list-group-item'] {
+    padding:5px;
+    padding-right:7px;
+    padding-left:7px;
+}
+
+[class~='checkbox'] {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
