@@ -1,0 +1,2 @@
+{:require [scdm.core]
+ :compiler-options {:asset-path "js/scdm.out"}}
